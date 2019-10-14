@@ -1,11 +1,19 @@
 {
-    "name": "vendor/vendor-test",
-    "description": "A test vendor repository",
+    "name": "vincentmoulene/vendor-test",
+    "description": "A test Composer project",
     "authors": [
         {
             "name": "Vincent",
             "email": "vincentmoulene@gmail.com"
         }
     ],
-    "require": {}
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
 }
