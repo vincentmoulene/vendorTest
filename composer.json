@@ -1,0 +1,11 @@
+{
+    "name": "vendor/vendor-test",
+    "description": "A test vendor repository",
+    "authors": [
+        {
+            "name": "Vincent",
+            "email": "vincentmoulene@gmail.com"
+        }
+    ],
+    "require": {}
+}
